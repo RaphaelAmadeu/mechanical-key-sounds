@@ -53,3 +53,8 @@ window.addEventListener('keydown', e => {
     console.log(e);
     findKey(e.code).playSound();
 });
+
+keys.forEach(key => {
+    const audio = new audio();
+    audio.src = key.sound;
+})
