@@ -44,7 +44,7 @@ const keys = [
     new Key(['KeyM'], 'M'),
     new Key(['Space'], 'SPACE'),
     new Key(['CapsLock', 'ShiftLeft', 'ShiftRight'], 'CAPS LOCK'),
-    new Key(['Enter', 'Backspace'], 'Enter')
+    new Key(['Enter', 'Backspace'], 'ENTER')
 ];
 
 const findKey = (key) => keys.find(elem => elem.keyCodes.includes(key));
