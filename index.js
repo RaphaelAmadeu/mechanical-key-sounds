@@ -5,7 +5,7 @@ console.log('THIS APPLICATION IS UNDER DEVELOPMENT');
 class Key {
     constructor(keyCodes, sound) {
         this.keyCodes = keyCodes;
-        this.sound = `../audio/${sound}.mp3`;
+        this.sound = `https://raw.githubusercontent.com/RaphaelAmadeu/mechanical-key-sounds/master/audio/${sound}.mp3`;
     }
 
     playSound() {
