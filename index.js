@@ -55,6 +55,8 @@ window.addEventListener('keydown', e => {
 });
 
 keys.forEach(key => {
-    const audio = new audio();
+    const audio = document.createElement("audio");
+    audio.autoplay = false;
     audio.src = key.sound;
+    document.body.append(audio);
 })
